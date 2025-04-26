@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque IMDAZ - Consultar Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Estoque Atual - IMDAZ</h1>
+        <a href="index.html" class="back-button">Voltar</a>
+    </header>
+    <main>
+        <section id="estoque">
+            <button id="mostrar-estoque">Mostrar Estoque (Fila)</button>
+            <!-- Botão para remover o primeiro produto da fila (FIFO) -->
+            <button id="remover-fila">Remover Primeiro Produto (Fila)</button>
+            <div id="lista-estoque"></div>
+        </section>
+    </main>
+    <script src="client.js"></script>
+</body>
+</html>
